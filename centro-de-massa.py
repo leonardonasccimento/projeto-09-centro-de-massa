@@ -36,7 +36,7 @@ def calcularCoordenadas(
                 )
     
     coordenada = numeradorDaCoordenada / somaDasMassas
-    print(f"1ª coordenada do centro de massa dos corpos = {round(coordenada,4)}")
+    print(f"1ª coordenada do centro de massa do(s) corpo(s) = {round(coordenada,4)}")
 
     if numeroDeDimensoes < 2:
         return
@@ -50,7 +50,7 @@ def calcularCoordenadas(
                 )
 
     coordenada = numeradorDaCoordenada / somaDasMassas
-    print(f"2ª coordenada do centro de massa dos corpos = {round(coordenada,4)}")
+    print(f"2ª coordenada do centro de massa do(s) corpo(s) = {round(coordenada,4)}")
 
     if numeroDeDimensoes < 3:
         return
@@ -64,7 +64,7 @@ def calcularCoordenadas(
                 )
 
     coordenada = numeradorDaCoordenada / somaDasMassas
-    print(f"3ª coordenada do centro de massa dos corpos = {round(coordenada,4)}")
+    print(f"3ª coordenada do centro de massa do(s) corpo(s) = {round(coordenada,4)}")
 
     if numeroDeDimensoes < 4:
         return
@@ -78,7 +78,7 @@ def calcularCoordenadas(
                 )
 
     coordenada = numeradorDaCoordenada / somaDasMassas
-    print(f"4ª coordenada do centro de massa dos corpos = {round(coordenada,4)}")
+    print(f"4ª coordenada do centro de massa do(s) corpo(s) = {round(coordenada,4)}")
 
     if numeroDeDimensoes < 5:
         return
@@ -92,7 +92,7 @@ def calcularCoordenadas(
                 )
 
     coordenada = numeradorDaCoordenada / somaDasMassas
-    print(f"5ª coordenada do centro de massa dos corpos = {round(coordenada,4)}")
+    print(f"5ª coordenada do centro de massa do(s) corpo(s) = {round(coordenada,4)}")
 
 
 while True:
