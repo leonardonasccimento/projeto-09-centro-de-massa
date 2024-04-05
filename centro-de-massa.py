@@ -114,8 +114,8 @@ while True:
         calcularCoordenadas(
             coordenadasDosCorpos, massasDosCorpos, numeroDeDimensoes, numeroDeCorpos
         )
-
-    print(f"\nO número de dimensões deve ser maior do que 0 e menor do que 6.")
+    else:
+        print(f"\nO número de dimensões deve ser maior do que 0 e menor do que 6.")
 
     print()
     parada = int(input("Digite (9) para sair ou digite (8) para um novo cálculo: "))
