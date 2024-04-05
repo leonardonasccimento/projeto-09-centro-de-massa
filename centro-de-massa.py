@@ -5,6 +5,7 @@ massasDosCorpos = []
 numeroDeDimensoes = 0
 numeroDeCorpos = 0
 
+
 def calcularCoordenadas(
     coordenadasDosCorpos, massasDosCorpos, numeroDeDimensoes, numeroDeCorpos
 ):
@@ -34,7 +35,7 @@ def calcularCoordenadas(
                 numeradorDaCoordenada += (
                     massasDosCorpos[massas - 1] * coordenadasDosCorpos[coordenadas - 1]
                 )
-    
+
     coordenada = numeradorDaCoordenada / somaDasMassas
     print(f"1ª coordenada do centro de massa do(s) corpo(s) = {round(coordenada,4)}")
 
@@ -104,7 +105,7 @@ while True:
     print()
 
     if opcao == 8:
-        exit(0)
+        break
 
     numeroDeDimensoes = int(input("Digite o número de dimensões do sistema: "))
     numeroDeCorpos = int(input("Digite o número de corpos do sistema: "))
